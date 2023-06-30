@@ -1,1 +1,12 @@
-new project is here
+pipeline {  
+    agent any  
+    stages {  
+            stage ('Build') {  
+             steps { echo 'new project is here' 
+                   }
+            }
+    }  
+}  
+
+
+
